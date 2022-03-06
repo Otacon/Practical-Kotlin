@@ -1,10 +1,5 @@
 # Practical Android
 
-## Indice del corso
-1. I primi passi
-   1. [Android Studio](android_studio.md)
-   2. [Il primo progetto](il_primo_progetto.md) 
-
 ## Perchè l'ennesimo corso Android?
 Benvenuto al corso di "practical android". Online ci sono milioni di tutorial sul mondo Android, tra cui uno offerto da 
 Google stessa. Quindi perchè dovresti perdere tempo a leggere questo?
@@ -56,3 +51,5 @@ Quindi, quello che farò sarà:
 
 Alla fine di questa sezione, avrai abbastanza elementi per decidere in autonomia quale approccio utilizzare nel tuo 
 progetto e quale degli elementi sopra citati vorrai studiare in maniera più approfondita e consapevole.
+
+[Prossimo: Indice del corso](index_of_content.md)

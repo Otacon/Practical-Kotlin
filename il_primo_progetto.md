@@ -29,4 +29,6 @@ inizializzati \[...\]. Potrei descriverti ogni singolo file cosa fa in questo bl
 
 Prossimo: Hello World Activity
 
-[Torna all'indice](index.md)
+[Precedente: Android Studio](android_studio.md)  
+
+[Torna all'indice](index_of_content.md)

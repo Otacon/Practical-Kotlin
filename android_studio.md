@@ -33,4 +33,4 @@ se mi dovesse sfuggire qualcosa, lascia pure un commento qui sotto e sistemerò.
 
 [Prossimo: Il primo progetto](il_primo_progetto.md)
 
-[Vai all'indice](android_studio.md)
+[Vai all'indice](index_of_content.md)
