@@ -31,6 +31,6 @@ touch capisci subito se l'esperienza utente "stona":
 Ad oggi la versione più recente di Android Studio è BumbleBee. Cercherò sempre di mantenere queste pagine aggiornate ma,
 se mi dovesse sfuggire qualcosa, lascia pure un commento qui sotto e sistemerò.
 
-[Prossimo: Il primo progetto](il_primo_progetto.md)
+[Prossimo: Il primo progetto](first_project.md)
 
 [Vai all'indice](index_of_content.md)
