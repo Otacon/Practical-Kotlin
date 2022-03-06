@@ -1,3 +1,11 @@
 theme: jekyll-theme-slate
 
 google_tracking_id: UA-222163131-1
+
+collections:
+  android:
+    order:
+      - 1.1_android_studio
+      - 1.2_first_project
+      - 1.3_activity
+      - 1.4_hello_world
