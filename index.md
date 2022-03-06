@@ -3,7 +3,7 @@
 ## Indice del corso
 1. I primi passi
    1. [Android Studio](android_studio.md)
-   2. [Il primo progetto]() 
+   2. [Il primo progetto](il_primo_progetto.md) 
 
 ## Perchè l'ennesimo corso Android?
 Benvenuto al corso di "practical android". Online ci sono milioni di tutorial sul mondo Android, tra cui uno offerto da 
