@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+# Practical Android
 
-You can use the [editor on GitHub](https://github.com/Otacon/Practical-Kotlin/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Indice del corso
+1. I primi passi
+   1. [Android Studio](android_studio.md)
+   2. [Il primo progetto]() 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Perchè l'ennesimo corso Android?
+Benvenuto al corso di "practical android". Online ci sono milioni di tutorial sul mondo Android, tra cui uno offerto da 
+Google stessa. Quindi perchè dovresti perdere tempo a leggere questo?
 
-### Markdown
+Essendo uno sviluppatore ormai da qualche anno, mi ritrovo a spesso ad andare a leggere tutorial su librerie, 
+architettura, componenti Android, ma ho notato che la maggior parte della documentazione esistente ricopre:
+- Come usare uno specifico tool;
+- Come risolvere uno specifico problema;
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Spesso è esattamente ciò che cerchi, ma molte volte non risponde alle domande più importanti:
+- Sto utilizzando il tool giusto per risolvere questo problema?
+- Quali sono i pro e i contro dell'adozione di questa tecnologia?
 
-```markdown
-Syntax highlighted code block
+La risposta a queste domande è soggettiva, quindi ti ritroverai a leggere molti "dipende". Dipende dal contesto e dal 
+tipo di applicazione che stai facendo, dal tipo di funzionalità, di come si svilupperà il progetto, \[...\]
 
-# Header 1
-## Header 2
-### Header 3
+## A chi è diretto?
 
-- Bulleted
-- List
+Al momento questo corso è indirizzato a chiunque abbia dimestichezza con la programmazione. Non è necessario conoscere 
+Kotlin: se conosci qualsiasi altro linguaggio di programmazione come Java, Php, Javascript, Python \[...\] hai già le 
+basi per poter scrivere del codice Kotlin (if/else, loop, classi, ...).
 
-1. Numbered
-2. List
+Ad ogni modo, cercherò di dare una breve spiegazione, sempre tramite esempi, di tutte le feature di Kotlin che 
+incontrerai lungo il percorso.
 
-**Bold** and _Italic_ and `Code` text
+In futuro *potrei* estendere questo blog anche a tecnologie Kotlin.
 
-[Link](url) and ![Image](src)
-```
+## La struttura di questo corso
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Dati i presupposti, in questa guida non troverai tutto ciò che ti serve per creare un'app Android. Come ho già detto, ci 
+sono milioni di corsi e guide online che rispondono alle tue domande. Il mio obiettivo è quello di creare un'app e, man 
+mano che saranno necessari nuovi concetti, li introdurrò in maniera rapida e superficiale. Sta a te poi approfondire 
+quelle che sono le tematiche più interessanti.
 
-### Jekyll Themes
+Potrebbe sembrare un approccio semplicistico, ma questo ti permette di avere una visione olistica della piattaforma per 
+comprendere come funziona, i punti di forza e debolezza e le aree che vanno approfondite.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Otacon/Practical-Kotlin/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Esempio pratico
+Ecco un piccolo assaggio: quando si lavora con tecnologie object oriented (come Java, Kotlin, ...) è necessario 
+istanziare i componenti. 
+Per farlo puoi utilizzare varie tecniche: Factory/Service Locator, la libreria _Koin_ o la libreria _Hilt_ 
+di Google basata su <em>Dagger</em>. Potrei scrivere decine e decine di post su come configurare _Dagger_ o _Koin_, ma 
+tutte queste informazioni le troverai sulle pagine ufficiali delle librerie o su blog post su medium. 
+Quindi, quello che farò sarà:
+1. Implementare una prima soluzione manuale usando il pattern Service Locator;
+2. Effettuare un refactoring del codice usando _Koin_;
+3. Effettuare un secondo refactoring del codice usando _Hilt;_
+4. Analizzare pro e contro dei tre approcci visti sopra;
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Alla fine di questa sezione, avrai abbastanza elementi per decidere in autonomia quale approccio utilizzare nel tuo 
+progetto e quale degli elementi sopra citati vorrai studiare in maniera più approfondita e consapevole.
