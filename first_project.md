@@ -27,6 +27,8 @@ E questa è la struttura del nostro progetto vuoto. Ci sono un sacco di cartelle
 inizializzati \[...\]. Potrei descriverti ogni singolo file cosa fa in questo blog post ma non lo farò: questo è 
 *Practical* Android: ti spiegherò come funziona tutto, solo a tempo debito ;)
 
+[Git Repo](https://github.com/Otacon/Practical-Kotlin/tree/main/1.1-FirstProject)
+
 Prossimo: Hello World Activity
 
 [Precedente: Android Studio](android_studio.md)  
