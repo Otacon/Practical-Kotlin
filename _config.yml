@@ -1,5 +1,9 @@
 theme: jekyll-theme-slate
 
+url: "https://otacon.github.io/Practical-Kotlin/"
+plugins:
+  - jekyll-sitemap
+
 google_tracking_id: UA-222163131-1
 
 collections:
