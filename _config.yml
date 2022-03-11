@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-hacker
 
 url: "https://otacon.github.io/Practical-Kotlin/"
 plugins:
