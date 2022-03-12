@@ -65,7 +65,7 @@
         {% if nextflag == 1 %}
             {% assign nextItemIndex = currentItemIndex | plus: 1 %}
             {% assign nextPost = site.android[nextItemIndex] %}
-            <a class="btn" href="{{ site.baseurl }}{{ nextPost.url }}">🡆 {{ nextPost.title }}</a>
+            <a class="btn" href="{{ site.baseurl }}{{ nextPost.url }}">{{ nextPost.title }} 🡆</a>
         {% endif %}
     </section>
 </div>
