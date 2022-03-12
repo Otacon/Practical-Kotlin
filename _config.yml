@@ -1,5 +1,7 @@
 theme: jekyll-theme-hacker
 
+lang: "it-IT"
+
 plugins:
   - jekyll-sitemap
 
