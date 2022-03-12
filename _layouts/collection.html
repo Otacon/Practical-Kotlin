@@ -42,30 +42,30 @@
         {% assign nextflag = 1 %}
 
         {% for c in site.android %}
-        {% if c.title == page.title %}
-        {% assign currentItemIndex = forloop.index0 %}
-        {% if forloop.index == 1 %}
-        {% assign prevflag = 0 %}
-        {% assign nextflag = 1 %}
-        {% elsif forloop.index == forloop.length %}
-        {% assign prevflag = 1 %}
-        {% assign nextflag = 0 %}
-        {% endif %}
-        {% endif %}
+            {% if c.title == page.title %}
+                {% assign currentItemIndex = forloop.index0 %}
+                {% if forloop.index == 1 %}
+                    {% assign prevflag = 0 %}
+                    {% assign nextflag = 1 %}
+                {% elsif forloop.index == forloop.length %}
+                    {% assign prevflag = 1 %}
+                    {% assign nextflag = 0 %}
+                {% endif %}
+            {% endif %}
         {% endfor %}
 
         {% if prevflag == 1 %}
-        {% assign prevItemIndex = currentItemIndex | minus: 1 %}
-        {% assign prevPost = site.android[prevItemIndex] %}
-        <a class="btn" href="{{ site.baseurl }}{{ prevPost.url }}">🡄 {{ prevPost.title }}</a>
+            {% assign prevItemIndex = currentItemIndex | minus: 1 %}
+            {% assign prevPost = site.android[prevItemIndex] %}
+            <a class="btn" href="{{ site.baseurl }}{{ prevPost.url }}">🡄 {{ prevPost.title }}</a>
         {% endif %}
 
         <a class="btn" href="../index_of_content">🡅 Indice</a>
 
         {% if nextflag == 1 %}
-        {% assign nextItemIndex = currentItemIndex | plus: 1 %}
-        {% assign nextPost = site.android[nextItemIndex] %}
-        <a class="btn" href="{{ site.baseurl }}{{ nextPost.url }}">🡆 {{ nextPost.title }}</a>
+            {% assign nextItemIndex = currentItemIndex | plus: 1 %}
+            {% assign nextPost = site.android[nextItemIndex] %}
+            <a class="btn" href="{{ site.baseurl }}{{ nextPost.url }}">🡆 {{ nextPost.title }}</a>
         {% endif %}
     </section>
 </div>

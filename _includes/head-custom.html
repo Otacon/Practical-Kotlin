@@ -1,3 +1,8 @@
 <link rel="shortcut icon" type="image/png" href="media/favicon.png">
-{% if site.google_ad_client %}{% include google_adsense.html %}{% endif %}
-{% if site.google_tracking_id %} {% include google_analytics.html %} {% endif %}
+{% if site.google_ad_client %}
+    {% include google_adsense.html %}
+{% endif %}
+
+{% if site.google_tracking_id %}
+    {% include google_analytics.html %}
+{% endif %}
