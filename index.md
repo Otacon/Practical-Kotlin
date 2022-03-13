@@ -1,4 +1,7 @@
-# Practical Android
+---
+layout: splash
+title: Practical Android
+---
 
 ## Perchè l'ennesimo corso Android?
 Benvenuto al corso di "practical android". Online ci sono milioni di tutorial sul mondo Android, tra cui uno offerto da 

@@ -1,6 +1,9 @@
-theme: jekyll-theme-hacker
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+minimal_mistakes_skin: "dark"
 
 lang: "it-IT"
+locale: "it-IT"
 
 plugins:
   - jekyll-sitemap
@@ -11,8 +14,17 @@ google_ad_client: ca-pub-9278877935617832
 collections:
   android:
     output: true
-    order:
-      - 1.1_android_studio
-      - 1.2_first_project
-      - 1.3_activity
-      - 1.4_hello_world
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: android
+    values:
+      layout: single
+      sidebar:
+        nav: "android"
+      read_time: true
+      author_profile: false
+      share: false
+      classes: wide
