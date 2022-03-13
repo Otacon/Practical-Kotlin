@@ -6,7 +6,12 @@ lang: "it-IT"
 locale: "it-IT"
 
 plugins:
+  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 google_tracking_id: UA-222163131-1
 google_ad_client: ca-pub-9278877935617832
