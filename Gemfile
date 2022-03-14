@@ -8,10 +8,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-include-cache'
 end
-gem "jekyll-include-cache", group: :jekyll_plugins
-
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
+gem "webrick"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
